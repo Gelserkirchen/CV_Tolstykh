@@ -1,1 +1,1 @@
-[Link to GH Pages](https://1drv.ms/b/s!AvKeXhBN05m0k1yHDoTdhsiWTAsb?e=RftcnL)
+[Link to GH Pages](https://gelserkirchen.github.io/CV_Tolstykh/)
