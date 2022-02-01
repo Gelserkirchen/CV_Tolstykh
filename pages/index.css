@@ -387,6 +387,17 @@
 
 .header__save-to-pdf {
     margin: 8px 0 0 24px;
+    padding-left: 32px;
+    color: #8F8F8F;
+    background-image: url("../images/__downloadPDF.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.header__save-to-pdf:hover {
+    opacity: 80%;
 }
 
 .education__card {
