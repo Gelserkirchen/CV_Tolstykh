@@ -1,21 +1,21 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
-/* 
-div, p, .body, h1, h2, h3, main, section {
+
+/* div, p, .body, h1, h2, h3, main, section, img {
     outline: 1px solid red;
 } */
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 .projects__wide {
     max-width: 1240px;
     margin: auto;
     padding-left: 45px;
     padding-right: 45px;
-}
-
-* {
-    font-family: 'Raleway', sans-serif;   
-    margin: 0;
-    padding: 0;
 }
 
 .cp_subheader {
@@ -30,9 +30,148 @@ div, p, .body, h1, h2, h3, main, section {
     color: #a0a0a0;
 }
 
+.relative__image_1280 {
+    width: 481px;
+}
+
+.relative__image_972 {
+    width: 373px;
+}
+
+.relative__image_370 {
+    width: 189px;
+}
+
+.relative__images_column {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.mobile__images {
+    width: 250px;
+}
+
+.mockup__image {
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.mobile__images_column {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.cp__input_data_lines {
+    margin-bottom: 24px;
+}
+
+.cp__input_data-small-arrow {
+    margin-bottom: 24px;
+}
+
+.cp__input_data-header {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.ul-style {
+    margin-bottom: 24px;
+}
+
+.arrow-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.platform__scheme {
+    max-width: 350px;
+    margin-right: 45px;
+}
+
+.table__nps-image {
+    position: absolute;
+    max-width: 350px;
+    top: -50%;
+    right: 0;
+}
+
+.wireframe__description {
+    display: flex;
+    flex-direction: row;
+}
+
+.wireframe__image {
+    width: 550px;
+    margin-right: 24px;
+    margin-bottom: 50px;
+}
+
+.prototype__image {
+    width: 550px;
+    margin-bottom: 50px;
+}
+
+.prototype__arrow-image {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 85px;
+}
+
+.prototype__text {
+    color: #fff;
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 124px;
+}
+
+.prototype__framer-logo {
+    position: absolute;
+    width: 120px;
+    top: 5%;
+    left: 5%;
+}
+
+.wireframe__subheader {
+    max-width: 500px;
+}
+
+.results__header {
+    font-weight: 600;
+    font-size: 16px;
+    color:#000;
+    margin-bottom: 16px;
+}
+
+.results__subheader {
+    text-align: center;
+}
+
+.grid__images_column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    gap: 24px;
+}
+
+.cp__table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .cp__table_row {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .cp__section__images {
@@ -53,8 +192,17 @@ div, p, .body, h1, h2, h3, main, section {
     font-weight: 700;
 }
 
+.cp__semibold-text {
+    font-weight: 600;
+}
+
 .cp__image {
     max-width: 395px;
+}
+
+.section {
+    margin-bottom: 120px;
+    position: relative;
 }
 
 .cp__section-header {
@@ -62,12 +210,43 @@ div, p, .body, h1, h2, h3, main, section {
     font-size: 28px;
     font-weight: 700;
     margin-right: 16px;
+    margin-bottom: 44px;
+}
+
+.cp__input {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.right-section {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.center-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 0;
     margin-bottom: 24px;
+    margin-right: 0;
+}
+
+.cp__section-header_with-subheader {
+    margin-bottom: 16px;
 }
 
 .cp__section-header_blue {
     color: #268AFF;
     margin-bottom: 16px;
+}
+
+.prototype {
+    background-color: #252525;
 }
 
 .cp__section {
@@ -78,9 +257,49 @@ div, p, .body, h1, h2, h3, main, section {
     overflow: visible;
 }
 
+.grid__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.grid__image {
+    max-width: 350px;
+    justify-self: stretch;
+    margin: 0;
+}
+
+.pallette__image {
+    width: 100%;
+    height: 100%;
+}
+
+.pallette__description {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+}
+
+.pallette__colors {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 75%;
+}
+
 .cp__section_row {
     flex-direction: row;
     overflow: visible;
+}
+
+.cp__text {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .header {
@@ -258,6 +477,15 @@ a:link, a:visited {
     flex-direction: row;
 }
 
+.blue-text {
+    color: #268AFF;
+    font-weight: 700;
+}
+
+.cp__blue_background_arrow-down {
+    top: -23%;
+}
+
 .projects__card-star {
     list-style-type: none;
     margin: 0 4px 0 0;
@@ -269,11 +497,17 @@ a:link, a:visited {
     flex-direction: column;
 }
 
+.cp_vertical-text {
+    transform: rotate(-90deg);
+    padding-top: 20px;
+}
+
 .cp_table_left {
     min-width: 50px;
     border-right: 7px solid #268AFF;
     padding-top: 8px;
     margin-bottom: 0px;
+    
 }
 
 .cp__table_highlighted {
@@ -289,6 +523,10 @@ a:link, a:visited {
     width: 30px;
 }
 
+.cp__text_with-img {
+    max-width: 550px;
+}
+
 .cp_table_left-highlighted {
     border-right-color: #D0E1F9;
     display: flex;
@@ -297,12 +535,21 @@ a:link, a:visited {
 }
 
 .cp_table_right {
-    margin: 8px 0 16px 16px;
+    margin: 16px 0 0 16px;
+}
+
+.li-style {
+    margin-bottom: 4px;
 }
 
 .body {
     margin: 0 auto 55px;
     max-width: 928px;
+}
+
+
+.mobile__images_right {
+    justify-self: end;
 }
 
 .right-align {
@@ -328,6 +575,12 @@ a:link, a:visited {
     max-height: 205px;
     margin: 16px 50px 16px 25px;
     grid-row: 1/3;
+}
+
+.grid__images_main-page {
+    grid-column: 1 / span 3;
+    max-width: 1100px;
+    justify-self: stretch;
 }
 
 .about__age {
@@ -502,6 +755,11 @@ a:link, a:visited {
     width: 40%;
 }
 
+.prototype_header {
+    color: #fff;
+    margin: 32px 0 16px;
+}
+
 .experience__year {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -673,6 +931,12 @@ a:link, a:visited {
 
 .header__save-to-pdf:hover {
     opacity: 80%;
+}
+
+.final-result-button {
+    height: 60px;
+    width: 200px;
+    margin: auto;
 }
 
 .education__card {
