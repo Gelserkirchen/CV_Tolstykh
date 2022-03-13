@@ -1,7 +1,7 @@
 @import url(../vendors/normalize.css);
 @import url(../vendors/fonts.css);
-
-/* div, p, .body, h1, h2, h3, main, section, img {
+/* 
+div, p, .body, h1, h2, h3, main, section, img {
     outline: 1px solid red;
 } */
 
@@ -16,6 +16,8 @@
     margin: auto;
     padding-left: 45px;
     padding-right: 45px;
+    overflow: hidden
+
 }
 
 .cp_subheader {
@@ -31,20 +33,42 @@
 }
 
 .relative__image_1280 {
-    width: 481px;
+    max-width: 481px;
+    width: 100%;
 }
 
 .relative__image_972 {
-    width: 373px;
+    max-width: 373px;
+    width: 100%;
+}
+
+.graphics__graphs {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    gap: 24px 70px;
+}
+
+.graphics__image {
+    max-width: 190px;
+    width: 100%;
+}
+
+.graphics__text_bold {
+    font-weight: 700;
 }
 
 .relative__image_370 {
-    width: 189px;
+    max-width: 189px;
+    width: 100%;
 }
 
 .relative__images_column {
     display: grid;
     grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    align-items: start;
+    gap: 24px;
 }
 
 .mobile__images {
@@ -140,9 +164,10 @@
     left: 5%;
 }
 
-.wireframe__subheader {
-    max-width: 500px;
-}
+/* .wireframe__subheader {
+    /* max-width: 500px;
+    margin: 0; 
+} */
 
 .results__header {
     font-weight: 600;
@@ -157,7 +182,7 @@
 
 .grid__images_column {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(100px, 400px);
     grid-template-rows: repeat(3, auto);
     gap: 24px;
 }
@@ -259,8 +284,8 @@
 
 .grid__images {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, minmax(100px, 400px));
+    grid-template-rows: repeat(2, auto);
     gap: 16px;
     width: 100%;
     height: 100%;
@@ -1027,6 +1052,14 @@ a:link, a:visited {
     text-align: right;
 }
 
+
+.graphics__description {
+    max-width: 700px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
 .education__cards {
     display: grid;
     list-style: none;
@@ -1052,6 +1085,21 @@ a:link, a:visited {
     width: 64px;
     height: 48px;
 }
+
+@media screen and (max-width: 1125px) {
+    .cp__text_with-img {
+        max-width: 350px;
+    }
+
+    .grid__images {
+        grid-template-columns: repeat(3, minmax(100px, 310px));
+    }
+
+    .cp__blue_background {
+        left: -178px;
+    }
+}
+
 
 @media screen and (max-width: 942px) {
     .projects {
