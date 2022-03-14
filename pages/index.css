@@ -49,7 +49,7 @@
 }
 
 .projects__card_empty-container {
-    background-color: rgba(230, 230, 69, 0.377);
+    background-color: rgba(230, 230, 69, 0.199);
     width: 120%;
     min-height: 100px;
     transform: rotate(-15deg);
@@ -58,8 +58,8 @@
     align-items: center;
 }
 
-.projects__card_empty-container:hover {
-    background-color: rgba(230, 230, 69, 0.233);
+.projects__card:hover .projects__card_empty-container {
+    background-color: rgba(230, 230, 69, 0.103);
 }
 
 .projects__card_description {
