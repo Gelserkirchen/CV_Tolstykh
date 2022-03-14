@@ -16,10 +16,10 @@
     </header>
     <main class="projects__wide">
         <section class="projects">
-            <form class="projects__button-forms" action="https://gelserkirchen.github.io/CV_Tolstykh/" method="get">
-                <button class="projects__back-button"><img class="projects__back-button-icon" src="/images/__icon_back.svg" alt="back button">back</button>
-                <button class="projects__back-button"><img class="projects__back-button-icon projects__back-button-icon_blue" src="/images/__icon_home.svg" alt="back button">go to CV</button>
-                <button class="projects__back-button projects__back-button_blue" type="submit" formaction="https://www.figma.com/file/Y6zSAjcnsl3BU4FR2qymHz/portfolio-Tolstykh?node-id=150%3A362" target="_blank"><img class="projects__back-button-icon projects__back-button-icon_blue" src="/images/__icon_figma-white.svg" alt="back button">final result in figma</button>
+            <form class="projects__button-forms">
+                <button class="projects__back-button" type="submit" formaction="https://gelserkirchen.github.io/CV_Tolstykh/projects.html" target="_blank"><img class="projects__back-button-icon" src="/images/__icon_back.svg" alt="back button">back</button>
+                <button class="projects__back-button" type="submit" formaction="https://gelserkirchen.github.io/CV_Tolstykh/index.html" target="_blank"><img class="projects__back-button-icon projects__back-button-icon_blue" src="/images/__icon_home.svg" alt="back button">CV</button>
+                <button class="projects__back-button projects__back-button_blue" type="submit" formaction="https://www.figma.com/file/Y6zSAjcnsl3BU4FR2qymHz/portfolio-Tolstykh?node-id=150%3A362" target="_blank"><img class="projects__back-button-icon projects__back-button-icon_blue" src="/images/__icon_figma-white.svg" alt="back button">Figma</button>
             </form>
             <h1 class="about__name cp_header">Cost Platform</h1>
             <p class="cp_subheader">PART 1: PLATFORM</p>
@@ -29,25 +29,26 @@
                 <p class="cp__section-text"><span class="cp__bold-text">Updating the financial platform</span></br>
                     Reasons:</br>
                     &mdash;&nbsp;transition to&nbsp;a&nbsp;new technology stack</br>
-                    &mdash;&nbsp;the level of&nbsp;satisfaction with the interface (NPS TOP-2: 54% (target 80%)&nbsp;/ BOT-2: 25% (target&nbsp;5%)) and the convenience of&nbsp;working in&nbsp;the NPS system&nbsp;54% over the past 4&nbsp;years</p>
+                    &mdash;&nbsp;the level of&nbsp;satisfaction with the <span class="text-blue">interface</span> (NPS TOP-2: 54% (target 80%)&nbsp;/ BOT-2: 25% (target&nbsp;5%)) and the <span class="text-blue">convenience</span> of&nbsp;working in&nbsp;the NPS system&nbsp;54% over the past 4&nbsp;years</p>
             </section>
     
             <section class="cp__section cp__section_row cp__section__images">
-                <div class="cp__section-pictures">
-                    <h2 class="cp__section-header cp__section-header_blue">Before</h2>
-                    <img class="cp__image" src="./images/__image__before.jpeg" alt="image-before">
-                </div>
+                <div class="before-after">
+                    <div class="cp__section-pictures">
+                        <h2 class="cp__section-header cp__section-header_blue">Before</h2>
+                        <img class="cp__image" src="./images/__image__before.jpeg" alt="image-before">
+                    </div>
 
-                <div class="cp__blue_background"></div>
+                    <img class="cp__arrow" src="./images/__image_big-arrow_white.svg" alt="image-after">
+    
+                    <div class="cp__section-pictures">
+                        <h2 class="cp__section-header cp__section-header_blue right-align">After</h2>
+                        <img class="cp__image" src="./images/__image__after.png" alt="image-after">
+                    </div>
+                </div>
 
                 <img class="cp__blue_background" src="./images/__image_blue-background.svg" alt="blue background">
-    
-                <img class="cp__arrow" src="./images/__image_big-arrow_white.svg" alt="image-before">
-    
-                <div class="cp__section-pictures">
-                    <h2 class="cp__section-header cp__section-header_blue right-align">After</h2>
-                    <img class="cp__image" src="./images/__image__after.png" alt="image-before">
-                </div>
+
             </section>
 
             <section class="cp__section">
@@ -97,7 +98,7 @@
                     </div>
                     <div class="cp__table_right">
                         <p class="cp_subheader">Project input data</p>
-                        <p class="cp__text"><span class="cp__bold-text">CostPlatform</span>> is&nbsp;a&nbsp;platform that was supposed to&nbsp;replace the existing SAP system (Fiori) and also have the ability to&nbsp;quickly create new services based on&nbsp;standard solutions (components&nbsp;/ developments). The platform consisted of&nbsp;a&nbsp;set of&nbsp;clickable links to&nbsp;various financial services.</p>
+                        <p class="cp__text"><span class="cp__bold-text">CostPlatform</span> is&nbsp;a&nbsp;platform that was supposed to&nbsp;replace the existing SAP system (Fiori) and also have the ability to&nbsp;quickly create new services based on&nbsp;standard solutions (components&nbsp;/ developments). The platform consisted of&nbsp;a&nbsp;set of&nbsp;clickable links to&nbsp;various financial services.</p>
                         <p class="cp__text">Development tool: React JS&nbsp;/ ABAP. I&nbsp;was the one UX/UI designer in&nbsp;the platform team.</p>
                          <ul class="cp__text">
                              <li class="cp__text">the platform must be&nbsp;scalable (Web&nbsp;/ Mobile (native apps))</li>
@@ -132,7 +133,7 @@
                            </div>   
                            
                            <div class="cp__input_data arrow-cell">
-                                <img src="./images/__image_big-arrow_blue.svg" alt="big arrow">
+                                <img class="arrow-cell_image" src="./images/__image_big-arrow_blue.svg" alt="big arrow">
                            </div>
 
                            <div class="cp__input_data">
@@ -143,7 +144,7 @@
                            </div>
                            
                            <div class="cp__input_data arrow-cell">
-                                <img src="./images/__image_big-arrow_blue.svg" alt="big arrow">
+                                <img class="arrow-cell_image" src="./images/__image_big-arrow_blue.svg" alt="big arrow">
                             </div>
                             
                             <div class="cp__input_data">
@@ -168,7 +169,7 @@
 
                 <div class="wireframe__description">
                     <img class="wireframe__image" src="./images/__image__wireframe.png" alt="wireframe">
-                    <p class="cp__text"><span class="blue-text">100 services were divided into 10&nbsp;groups</span> in&nbsp;which there could be&nbsp;up&nbsp;to&nbsp;2&nbsp;levels of&nbsp;nesting (one service could be&nbsp;in&nbsp;several groups). Users did not see everything at&nbsp;once, but only services depending on&nbsp;their role (analysts prepared a&nbsp;role model)</p>
+                    <p class="cp__text cp__text_wireframing"><span class="blue-text">100 services were divided into 10&nbsp;groups</span> in&nbsp;which there could be&nbsp;up&nbsp;to&nbsp;2&nbsp;levels of&nbsp;nesting (one service could be&nbsp;in&nbsp;several groups). Users did not see everything at&nbsp;once, but only services depending on&nbsp;their role (analysts prepared a&nbsp;role model)</p>
                 </div>
             </section>
 
@@ -198,7 +199,7 @@
                     <div class="grid__images_column">
                         <img class="grid__image" src="./images/__image__grid_counter.png" alt="counter grid">
                         <img class="grid__image" src="./images/__image__grid_favorites.png" alt="favorites grid">
-                        <img class="grid__image" src="./images/__image__grid_icons.png" alt="icons grid">
+                        <img class="grid__image grid__image_icons" src="./images/__image__grid_icons.png" alt="icons grid">
                     </div>
                 </div>
             </section>
