@@ -44,12 +44,17 @@
 
 .projects__card_header {
     text-align: center;
+    width: 80%;
 }
 
 .projects__card_empty-container {
     background-color: rgba(230, 230, 69, 0.377);
-    width: 100%;
+    width: 120%;
     min-height: 100px;
+    transform: rotate(-15deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .projects__card_empty-container:hover {
@@ -1607,7 +1612,7 @@ a:link, a:visited {
     }
 
     .experience__card-logo_type_marvel {
-        justify-self: center;
+        justify-self: center;project__card_empty-container
     }
 
     .experience {
