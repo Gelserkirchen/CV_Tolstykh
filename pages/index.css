@@ -1292,6 +1292,11 @@ a:link, a:visited {
 
 @media screen and (max-width: 734px) {
 
+    .projects__image-of-card {
+        top: -6px;
+        width: 110%;
+    }
+
     .project__image-me {
         max-width: 347px;
     }
@@ -1308,11 +1313,11 @@ a:link, a:visited {
 
     .projects__cards {
         grid-template-columns: repeat(1, 320px);
-        grid-template-rows: repeat(6, 420px);
+        grid-template-rows: repeat(6, minmax(100px, 462px));
     }
 
     .projects__card-image {
-        min-height: 150px;
+        min-height: 170px;
     }
 
     .about {
@@ -1487,6 +1492,8 @@ a:link, a:visited {
     .projects__back-button {
         padding-right: 16px;
     }
+
+
 }
 
 @media screen and (max-width: 570px) {
@@ -1561,6 +1568,8 @@ a:link, a:visited {
         margin-bottom: 20px;
         
     }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -1615,15 +1624,15 @@ a:link, a:visited {
     }
 
     .projects__image-of-card {
-        top: -20px;
-        width: 100%;
+        top: -3px;
+        width: 115%;
     }
 }
 
 @media screen and (max-width: 330px) {
     .cp__blue_background_arrow-down {
         left: -165px;
-        top: 56px;
+        /* top: 56px; */
     }
 
     .projects__back-button {
