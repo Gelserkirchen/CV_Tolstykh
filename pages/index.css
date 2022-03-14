@@ -2,9 +2,9 @@
 @import url(../vendors/fonts.css);
 
  
-div, p, .body, h1, h2, h3, main, section, img {
+/* div, p, .body, h1, h2, h3, main, section, img {
     outline: 1px solid red;
-} 
+}  */
 
 * {
     font-family: 'Raleway', sans-serif;
