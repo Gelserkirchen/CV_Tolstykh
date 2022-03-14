@@ -16,12 +16,21 @@
     </header>
 
     <main class="projects">
-        <form class="projects__button-forms" action="https://gelserkirchen.github.io/CV_Tolstykh/" method="get">
-            <button class="projects__back-button"><img class="projects__back-button-icon" src="/images/__icon_back.svg" alt="back button">back to CV</button>
+        <form class="projects__button-forms" action="https://gelserkirchen.github.io/CV_Tolstykh/index.html" method="get">
+            <button class="projects__back-button" type="submit" formaction="https://gelserkirchen.github.io/CV_Tolstykh/index.html"><img class="projects__back-button-icon" src="/images/__icon_back.svg" alt="back button">back to CV</button>
         </form>
-        <h1 class="about__name projects__header">Portfolio projects page</h1>
+        <div class="projects__description">
+            <img class="project__image-me" src="./images/__image_me.jpeg" alt="at work">
+            <div class="projects__description-text">
+                <h1 class="about__name projects__header projects__header-pp">Portfolio projects page</h1>
+                <p class="project__description_subheader-text">Hello! On&nbsp;this page&nbsp;I will add presentations of&nbsp;my&nbsp;projects to&nbsp;UI/UX. I&nbsp;will describe the process of&nbsp;work and show, if&nbsp;possible, work with the product (result, reasons for work).</p>
+                <p class="project__description_subheader-text">Projects will appear every week until one project is&nbsp;added.</p>
+                <p class="project__description_subheader-text">I&nbsp;plan to&nbsp;post the next project after March&nbsp;21, 2022.</p>      
+            </div>
+        </div>
+        
         <div class="projects__cards">
-            <a href="#" class="projects__card" target="_blank">
+            <a href="https://gelserkirchen.github.io/CV_Tolstykh/sc_platform.html" class="projects__card">
                 <div class="projects__card-image projects__card-image_cost-platform">
                     <p class="projects__card-header projects__card-image-header">Name of project</p>
                     <h1 class="projects__card-image-text">Cost Platform</h1>
@@ -61,23 +70,35 @@
                 </div>
             </a>
 
-            <div class="projects__card">
+            <div class="projects__card projects__card_empty-card">
+                <div class="projects__card_empty-container">
+                    <p class="projects__card_description">In progress</p>
+                    <h2 class="projects__card_header">Landing page</h2>
+                    <p class="projects__card_description"></p>
+                </div>     
+            </div>
+
+            <div class="projects__card projects__card_empty-card">
+                <div class="projects__card_empty-container">
+                    <p class="projects__card_description">In progress</p>
+                    <h2 class="projects__card_header">Services for financial platform</h2>
+                    <p class="projects__card_description"></p>
+                </div>                
+            </div>
+
+            <div class="projects__card projects__card_empty-card">
                 
             </div>
 
-            <div class="projects__card">
-                
+            <div class="projects__card projects__card_empty-card">
+                <div class="projects__card_empty-container">
+                    <p class="projects__card_description">In progress</p>
+                    <h2 class="projects__card_header">Mobile projects</h2>
+                    <p class="projects__card_description"></p>
+                </div>                
             </div>
 
-            <div class="projects__card">
-                
-            </div>
-
-            <div class="projects__card">
-                
-            </div>
-
-            <div class="projects__card">
+            <div class="projects__card projects__card_empty-card">
                 
             </div>
         </div>
