@@ -1162,10 +1162,6 @@ a:link, a:visited {
     box-shadow: 0px 5.57649px 16.7295px rgba(36, 105, 246, 0.12);
 }
 
-.experience__card_type_figma:hover {
-    /* background: linear-gradient(180deg, #268AFF 0%, #26A8FF 100%); */
-}
-
 .systems {
     list-style: none;
     display: flex;
