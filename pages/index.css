@@ -118,7 +118,7 @@
 .before-after {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
     align-items: center;
     width: 100%;
     justify-content: space-between;
@@ -513,8 +513,9 @@
 }
 
 .projects__card:hover .projects__card-image {
-    transform: scale(1.01); -webkit-transform: scale(1.01);
-    transition: transform 0.5s; 
+    background: linear-gradient(356.19deg, #268AFF -50.95%, rgba(255, 255, 255, 0) 102.63%), no-repeat;
+    /*transform: scale(1.01); -webkit-transform: scale(1.01);*/
+    /*transition: transform 0.5s; */
 }
 
 .projects__image-of-card {
@@ -555,6 +556,10 @@
 
 .projects__card:hover {
     box-shadow: 0px 5.57649px 16.7295px rgba(36, 105, 246, 0.12);
+}
+
+.projects__card:hover .image-hover {
+    /*color: #252525;*/
 }
 
 .projects__header {
