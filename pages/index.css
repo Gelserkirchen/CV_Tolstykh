@@ -87,7 +87,7 @@
     margin-bottom: 45px;
     border: 1px solid rgb(229, 237, 255);
     border-radius: 16px;
-    padding: 4px 16px 4px 4px;
+    padding: 4px 16px 24px 4px;
     gap: 34px;
     justify-content: flex-start;
 }
@@ -1173,6 +1173,16 @@ a:link, a:visited {
 
 .blue-link {
     color: #268AFF;
+}
+
+.presentation-link {
+    margin-bottom: 16px;
+}
+
+.presentation-link_header {
+    margin-bottom: 16px;
+    font-weight: 700;
+    color: #535353;
 }
 
 .systems__design-block {
