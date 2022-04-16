@@ -514,8 +514,6 @@
 
 .projects__card:hover .projects__card-image {
     background: linear-gradient(356.19deg, #268AFF -50.95%, rgba(255, 255, 255, 0) 102.63%), no-repeat;
-    /*transform: scale(1.01); -webkit-transform: scale(1.01);*/
-    /*transition: transform 0.5s; */
 }
 
 .projects__image-of-card {
