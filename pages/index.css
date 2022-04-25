@@ -1178,7 +1178,16 @@ a:link, a:visited {
 }
 
 .blue-link {
-    color: #268AFF;
+    color: #1860b4;
+}
+
+
+.blue-link_type_button {
+    color: #fff;
+}
+
+.blue-link_white-text {
+    color: #fff;
 }
 
 .presentation-link {
@@ -1186,7 +1195,7 @@ a:link, a:visited {
 }
 
 .presentation-link_header {
-    margin-bottom: 16px;
+    margin-bottom: 22px;
     font-weight: 700;
     color: #787878;
 }
@@ -1249,6 +1258,18 @@ a:link, a:visited {
 
 .education__card:hover img {
     opacity: 70%;
+}
+
+
+.blue-link_type_button {
+    padding: 8px;
+    background-color: #268AFF;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.blue-link_type_button:hover {
+    background-color: #0f60be;
 }
 
 .education__card-year {
