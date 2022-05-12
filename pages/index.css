@@ -12,6 +12,15 @@
     list-style-position: inside
 }
 
+.body__mobile {
+    background-color: #252525;
+}
+
+.pictures {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
 .prototype-background {
     background-color: #252525;
     position: absolute;
@@ -73,11 +82,17 @@
     background-color: rgba(230, 230, 69, 0.103);
 }
 
+.presentations-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
 .projects__card_description {
     text-align: center;
 }
 
 .project__description_subheader-text {
+    max-width: 340px;
     margin-bottom: 24px;
     color: #fff;
 }
@@ -91,10 +106,12 @@
     padding: 4px 16px 4px 4px;
     gap: 34px;
     justify-content: flex-start;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(100px);
 }
 
 .project__image-me {
-    max-width: 292px;
+    max-width: 242px;
     width: 100%;
     border-radius: 16px;
 }
@@ -502,6 +519,8 @@
 
 .projects__card-description {
     padding: 16px 0 0 0;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(100px);
 }
 
 .projects__card-image {
@@ -519,6 +538,8 @@
 
 .body__type_projects {
     background-color: #000;
+    background-image: url('../images/background_project.svg');
+    background-position: center;
 }
 
 .projects__image-of-card {
@@ -1178,11 +1199,13 @@ a:link, a:visited {
 }
 
 .blue-link {
-    color: #1860b4;
+    color: #4589d8;
 }
 
 
 .blue-link_type_button {
+    margin-right: 16px;
+    margin-bottom: 16px;
     color: #fff;
 }
 
@@ -1197,7 +1220,7 @@ a:link, a:visited {
 .presentation-link_header {
     margin-bottom: 22px;
     font-weight: 700;
-    color: #787878;
+    color: #bcbcbc;
 }
 
 .systems__design-block {
@@ -1390,6 +1413,16 @@ a:link, a:visited {
 
 
 @media screen and (max-width: 942px) {
+
+    .presentations-buttons {
+        flex-direction: column;
+    }
+
+    .body__type_projects {
+        background-image: none;
+    }
+
+
     .cp__section {
         margin-bottom: 79px;
     }
@@ -1524,6 +1557,8 @@ a:link, a:visited {
     .projects__description {
         grid-template-columns: 1fr;
         padding-right: 4px;
+        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(100px);
     }
 
     .projects {
